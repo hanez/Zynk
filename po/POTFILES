@@ -1,0 +1,9 @@
+	../src/panel.c \
+	../src/preferences.c \
+	../src/preferences_signals.c \
+	../src/profiles.c \
+	../src/profiles_signals.c \
+	../src/rsync.c \
+	../src/settings.c \
+	../src/zynk.c \
+	../src/zynk_signals.c

@@ -1,0 +1,1360 @@
+# Firestarter German translation file.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
+# Christian Meyer <chrisime@gnome.org>, 2000-2002.
+# Frank Arnold <frank@scirocco-5v-turbo.de>, 2004.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: firestarter HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-01 23:18+0200\n"
+"PO-Revision-Date: 2005-01-28 18:57+0100\n"
+"Last-Translator: Frank Arnold <frank@scirocco-5v-turbo.de>\n"
+"Language-Team: German GNOME Translators <gnome-de@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/zynk_signals.c:209
+#, fuzzy
+msgid "A rsync based sync utility for GNOME.\n"
+msgstr "Ein »All-In-One« Linux Firewall-Werkzeug für GNOME.\n"
+
+#~ msgid "Desktop Firewall Tool"
+#~ msgstr "Konfiguration und Überwachung der Firewall"
+
+#~ msgid "Firestarter"
+#~ msgstr "Firestarter"
+
+#~ msgid ""
+#~ "Apply changes made to policy immediately, the alternative is for the user "
+#~ "to confirm the changes in advance."
+#~ msgstr ""
+#~ "Änderungen an einer Richtlinie sofort anwenden. Die Alternative dazu ist "
+#~ "die vorherige Bestätigung der Änderungen durch den Benutzer."
+
+#~ msgid "Apply the ICMP settings, as configured in the wizard."
+#~ msgstr "Anwenden der ICMP-Einstellungen wie im Assistent konfiguriert."
+
+#~ msgid "Apply the settings of Type of Service, as configured in the wizard."
+#~ msgstr ""
+#~ "Anwenden der Einstellungen für Diensttyp-Filter wie im Assistent "
+#~ "konfiguriert."
+
+#~ msgid "Block broadcasts from external network"
+#~ msgstr "Broadcasts des externen Netzwerks blockieren"
+
+#~ msgid "Block broadcasts from external network."
+#~ msgstr "Broadcasts des externen Netzwerks blockieren."
+
+#~ msgid "Block broadcasts from internal network"
+#~ msgstr "Broadcasts des internen Netzwerks blockieren"
+
+#~ msgid "Block broadcasts from internal network."
+#~ msgstr "Broadcasts des internen Netzwerks blockieren."
+
+#~ msgid ""
+#~ "Block potentially spoofed traffic claiming to come from IANA reserved "
+#~ "address space on the external interface."
+#~ msgstr ""
+#~ "Potentiell gefälschten Verkehr der vorgibt , aus IANA-reserviertem "
+#~ "Adressraum zu kommen, an der externen Schnittstelle blockieren."
+
+#~ msgid "Block traffic from reserved address space on the public interface"
+#~ msgstr "Verkehr·von·reserviertem·Adressraum·an·öffentlichen·Schnittstellen·blockieren"
+
+#~ msgid "Deny packets"
+#~ msgstr "Pakete abweisen"
+
+#~ msgid "Drop denied packets without sending an error packet back."
+#~ msgstr ""
+#~ "Abgewiesene Pakete verwerfen, ohne ein Fehlerpaket zurück zu schicken."
+
+#~ msgid "Enable DHCP server for connection sharing"
+#~ msgstr "DHCP Server für Verbindungsteilung aktivieren"
+
+#~ msgid "Enable NAT"
+#~ msgstr "NAT aktivieren"
+
+#~ msgid "Enable Network Address Translation, or Internet connection sharing."
+#~ msgstr ""
+#~ "Netzwerkadressübersetzung für eine gemeinsame Internet-Verbindung "
+#~ "aktivieren"
+
+#~ msgid "Enable the configuration of ICMP"
+#~ msgstr "ICMP-Konfiguration zulassen"
+
+#~ msgid "Enable the configuration of tos"
+#~ msgstr "Konfiguration der Diensttypen zulassen"
+
+#~ msgid "Enable tray icon"
+#~ msgstr "Symbol im Benachrichtungsfeld aktivieren"
+
+#~ msgid "Filter out hits not targeted at the firewall"
+#~ msgstr "Ausfiltern von Treffern, die nicht auf die Firewall gerichtet waren"
+
+#~ msgid ""
+#~ "Filter out hits that have an destination IP that does not match the "
+#~ "firewall host."
+#~ msgstr ""
+#~ "Ausfiltern von Treffern, deren Ziel-IP nicht mit der des Firewall-"
+#~ "Rechners übereinstimmt."
+
+#~ msgid "Filter out redundant hits"
+#~ msgstr "Identische Treffer ausfiltern"
+
+#~ msgid "Filter out sequences of identical hits."
+#~ msgstr "Sequenzen von identischen Treffern herausfiltern."
+
+#~ msgid "Highest IP in the range to serve to DHCP clients"
+#~ msgstr ""
+#~ "Höchste IP-Adresse, die für DHCP Clients zur Verfügung gestellt wird."
+
+#~ msgid "Is it the first time the user is running the program"
+#~ msgstr "Wird das Programm zum ersten Mal durch den Benutzer gestartet?"
+
+#~ msgid "Lowest IP in the range to serve to DHCP clients"
+#~ msgstr ""
+#~ "Niedrigste IP-Adresse, die für DHCP Clients zur Verfügung gestellt wird."
+
+#~ msgid "Minimize to tray"
+#~ msgstr "In das Benachrichtigungsfeld minimieren"
+
+#~ msgid "Nameserver DHCP clients should use"
+#~ msgstr "Nameserver für DHCP Clients"
+
+#~ msgid "Policy auto apply"
+#~ msgstr "Autom. Anwendung von Richtlinien"
+
+#~ msgid ""
+#~ "Restrict outbound traffic by default, only allowing whitelisted outgoing "
+#~ "connections."
+#~ msgstr ""
+#~ "Ausgehenden Verkehr per Voreinstellung unterbinden. Nur speziell "
+#~ "freigegebene Verbindungen nach außen erlauben."
+
+#~ msgid "Restrictive outbound policy mode"
+#~ msgstr "Restriktiver Richtlinienmodus für ausgehenden Verkehr"
+
+#~ msgid ""
+#~ "Run the system dhcpd server in conjunction with Firestarter Internet "
+#~ "connection sharing."
+#~ msgstr ""
+#~ "DHCPD Server des Systems in Verbindung mit der Firestarter Internet-"
+#~ "Verbindungsteilung laufen lassen."
+
+#~ msgid "Show the Firestarter icon in the notification area."
+#~ msgstr "Anzeige des Firestarter-Symbols im Benachrichtigungsfeld."
+
+#~ msgid "Show the Type of Service column in the Hit View."
+#~ msgstr "Diensttyp-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the destination column in the Hit View"
+#~ msgstr "Ziel-Spalte in der Ereignisliste anzeigen"
+
+#~ msgid "Show the destination column in the Hit View."
+#~ msgstr "Ziel-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the device the hit was received from in the Hit View."
+#~ msgstr ""
+#~ "Das Gerät, von dem ein Treffer empfangen wurde, in der Ereignisliste "
+#~ "anzeigen."
+
+#~ msgid "Show the device the hit was routed to in the Hit View."
+#~ msgstr ""
+#~ "Das Gerät, an das ein Treffer geroutet wurde, in der Ereignisliste "
+#~ "anzeigen."
+
+#~ msgid "Show the direction column in the Hit View"
+#~ msgstr "Richtungsspalte in Trefferliste anzeigen"
+
+#~ msgid "Show the direction column in the Hit View."
+#~ msgstr "Richtungsspalte in der Trefferliste anzeigen."
+
+#~ msgid "Show the in column in the Hit View"
+#~ msgstr "Eingehend-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the length column in the Hit View"
+#~ msgstr "Längenspalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the out column in the Hit View"
+#~ msgstr "Ausgehend-Spalte in Trefferliste anzeigen"
+
+#~ msgid "Show the packet length column in the Hit View."
+#~ msgstr "Paketlängen-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the port column in the Hit View"
+#~ msgstr "Port-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the port column in the Hit View."
+#~ msgstr "Port-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the protocol column in the Hit View"
+#~ msgstr "Protokoll-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the protocol column in the Hit View."
+#~ msgstr "Protokoll-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the service column in the Hit View"
+#~ msgstr "Dienst-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the service column in the Hit View."
+#~ msgstr "Dienst-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the source column in the Hit View"
+#~ msgstr "Quellen-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the source column in the Hit View."
+#~ msgstr "Quellen-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the time column in the Hit View"
+#~ msgstr "Zeit-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Show the time column in the Hit View."
+#~ msgstr "Zeit-Spalte in der Ereignisliste anzeigen."
+
+#~ msgid "Show the tos column in the Hit View"
+#~ msgstr "Diensttyp-Spalte in Ereignisliste anzeigen"
+
+#~ msgid "Specifies the higher limit of the IP space to use for DHCP leases."
+#~ msgstr ""
+#~ "Legt das obere Limit für den IP-Bereich fest, der für DHCP Leases benutzt "
+#~ "werden kann."
+
+#~ msgid "Specifies the lower limit of the IP space to use for DHCP leases."
+#~ msgstr ""
+#~ "Legt das untere Limit für den IP-Bereich fest, der für DHCP Leases "
+#~ "benutzt werden kann."
+
+#~ msgid "Start the firewall on a DHCP lease renewal"
+#~ msgstr "Firewall starten, wenn eine DHCP-Lease erneuert wird."
+
+#~ msgid "Start the firewall when the program loads"
+#~ msgstr "Firewall beim Programmstart starten"
+
+#~ msgid "Start the firewall when the program loads."
+#~ msgstr "Die Firewall starten wenn das Programm geladen wird."
+
+#~ msgid "Start the firewall when the system boots"
+#~ msgstr "Firewall beim Systemstart aktivieren"
+
+#~ msgid "Start the firewall when the system boots."
+#~ msgstr "Die Firewall beim Systemstart aktivieren."
+
+#~ msgid "Start the firewall when the system dials out"
+#~ msgstr "Firewall starten, wenn das System nach draussen wählt."
+
+#~ msgid "Start the firewall when the system establishes a PPP connection."
+#~ msgstr "Firewall starten, wenn das System eine PPP Verbindung aufbaut."
+
+#~ msgid "Start the firewall when the system receives a new DHCP lease."
+#~ msgstr "Firewall starten, wenn das System eine neue DHCP-Lease erhält."
+
+#~ msgid "The Internet connected network interface. For example, ppp0 or eth0."
+#~ msgstr ""
+#~ "Die mit dem Internet verbundene Netzwerkschnittstelle. Mögliche Werte "
+#~ "sind z.B. »ppp0« oder »eth0«."
+
+#~ msgid "The LAN connected network interface. For example, eth0 or eth1."
+#~ msgstr ""
+#~ "Die mit dem lokalen Netzwerk verbundene Schnittstelle. Mögliche Werte "
+#~ "sind z.B. »eth0« oder »eth1«."
+
+#~ msgid "The external interface"
+#~ msgstr "Externe Schnittstelle"
+
+#~ msgid "The first time Firestarter starts several special actions are taken."
+#~ msgstr ""
+#~ "Bei der ersten Ausführung von Firestarter müssen einige besondere "
+#~ "Vorkehrungen getroffen werden."
+
+#~ msgid "The internal interface"
+#~ msgstr "Interne Schnittstelle"
+
+#~ msgid "The location of the file the system logging daemon writes to."
+#~ msgstr "Die Adresse der Datei, in die der Systemprotokoll-Daemon schreibt."
+
+#~ msgid ""
+#~ "The nameserver clients should use. You can specify multiple nameserver in "
+#~ "a space separated list. A value of &lt;dynamic&gt; causes the nameservers "
+#~ "to be determined at run time."
+#~ msgstr ""
+#~ "Der Nameserver, den Clients benutzen sollten. Es können mehrere "
+#~ "Nameserver in einer durch Leerzeichen getrennten Liste festgelegt werden. "
+#~ "Die Eingabe von &lt;dynamic&gt; bewirkt, dass die Nameserver zur Laufzeit "
+#~ "ermittelt werden."
+
+#~ msgid "The system log file"
+#~ msgstr "Systemlog Datei"
+
+#~ msgid ""
+#~ "When closing the program window, instead of exiting, hide the window."
+#~ msgstr ""
+#~ "Beim Schließen des Anwendungsfensters das Fenster nur ausblenden, anstatt "
+#~ "die Anwendung zu beenden."
+
+#~ msgid "Failed to open DHCP server configuration file for writing: "
+#~ msgstr ""
+#~ "Konfigurationsdatei für den DHCP Server konnte nicht zum Schreiben "
+#~ "geöffnet werden: "
+
+#~ msgid "Failed to write to DHCP server configuration file: "
+#~ msgstr ""
+#~ "In die Konfigurationsdatei für den DHCP Server konnte nicht geschrieben "
+#~ "werden: "
+
+#~ msgid "Failed to stop the firewall"
+#~ msgstr "Die Firewall konnte nicht gestoppt werden"
+
+#~ msgid "There was an undetermined error when trying to stop the firewall."
+#~ msgstr ""
+#~ "Beim Versuch, die Firewall zu stoppen, ist ein nicht näher beschriebener "
+#~ "Fehler aufgetreten."
+
+#~ msgid "The device %s is not ready."
+#~ msgstr "Das Gerät %s ist nicht bereit."
+
+#~ msgid "Your kernel does not support iptables."
+#~ msgstr "Der Kernel dieses Systems unterstützt keine »iptables«."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Ein unbekannter Fehler ist aufgetreten."
+
+#~ msgid ""
+#~ "Please check your network device settings and make sure your\n"
+#~ "Internet connection is active."
+#~ msgstr ""
+#~ "Bitte überprüfen die Einstellungen des Netzwerkgeräts\n"
+#~ "und stellen Sie sicher, dass die Internetverbindung aktiv ist."
+
+#~ msgid "Failed to start the firewall\n"
+#~ msgstr "Die Firewall konnte nicht gestartet werden\n"
+
+#~ msgid "Failed to start the firewall"
+#~ msgstr "Die Firewall konnte nicht gestartet werden"
+
+#~ msgid "Failed to lock the firewall"
+#~ msgstr "Die Firewall konnte nicht gesperrt werden"
+
+#~ msgid "There was an undetermined error when trying to lock the firewall."
+#~ msgstr ""
+#~ "Beim Versuch, die Firewall zu sperren, ist ein nicht näher beschriebener "
+#~ "Fehler aufgetreten."
+
+#~ msgid ""
+#~ " -s, --start            Start the firewall\n"
+#~ " -p, --stop             Stop the firewall\n"
+#~ "     --lock             Lock the firewall, blocking all traffic\n"
+#~ "     --generate-scripts Generate firewall scripts from current "
+#~ "configuration\n"
+#~ "     --start-hidden     Start Firestarter with the GUI not visible\n"
+#~ " -v, --version          Prints Firestarter's version number\n"
+#~ " -h, --help             You're looking at it\n"
+#~ msgstr ""
+#~ " -s, --start            Die Firewall starten\n"
+#~ " -p, --stop             Die Firewall stoppen\n"
+#~ "     --lock             Die Firewall sperren, den gesamten\n"
+#~ "                        Verkehr blockieren\n"
+#~ "     --generate-scripts Firewall-Skripte aus der aktuellen\n"
+#~ "                        Konfiguration erzeugen\n"
+#~ "     --start-hidden     Firestarter ausführen, ohne die\n"
+#~ "                        Benutzeroberfläche einzublenden\n"
+#~ " -v, --version          Die Versionsnummer von Firestarter ausgeben\n"
+#~ " -h, --help             Lesen Sie gerade\n"
+
+#~ msgid "Insufficient privileges"
+#~ msgstr "Unzureichende Benutzerrechte"
+
+#~ msgid "You must have root user privileges to use Firestarter."
+#~ msgstr ""
+#~ "Sie müssen über »root«-Rechte verfügen, um Firestarter starten zu können."
+
+#~ msgid "Updating firewall to new version...\n"
+#~ msgstr "Aktualisierung der Firewall auf die neue Version…\n"
+
+#~ msgid "Firewall update complete\n"
+#~ msgstr "Aktualisierung der Firewall abgeschlossen\n"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Events"
+#~ msgstr "Ereignisse"
+
+#~ msgid "Policy"
+#~ msgstr "Richtlinie"
+
+#~ msgid "Outbound"
+#~ msgstr "Ausgehend"
+
+#~ msgid "Inbound"
+#~ msgstr "Eingehend"
+
+#~ msgid "Unknown"
+#~ msgstr "Unbekannt"
+
+#~ msgid "Time"
+#~ msgstr "Zeit"
+
+#~ msgid "Direction"
+#~ msgstr "Richtung"
+
+#~ msgid "In"
+#~ msgstr "Eingehend"
+
+#~ msgid "Out"
+#~ msgstr "Ausgehend"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Source"
+#~ msgstr "Quelle"
+
+#~ msgid "Destination"
+#~ msgstr "Ziel"
+
+#~ msgid "Length"
+#~ msgstr "Länge"
+
+#~ msgid "TOS"
+#~ msgstr "Diensttyp"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokoll"
+
+#~ msgid "Service"
+#~ msgstr "Dienst"
+
+#~ msgid "Blocked Connections"
+#~ msgstr "Blockierte Verbindungen"
+
+#~ msgid "_Firewall"
+#~ msgstr "_Firewall"
+
+#~ msgid "_Edit"
+#~ msgstr "_Bearbeiten"
+
+#~ msgid "E_vents"
+#~ msgstr "_Ereignisse"
+
+#~ msgid "_Show Column"
+#~ msgstr "Spalten an_zeigen"
+
+#~ msgid "_Policy"
+#~ msgstr "_Richtlinie"
+
+#~ msgid "_Help"
+#~ msgstr "_Hilfe"
+
+#~ msgid "_Quit"
+#~ msgstr "_Beenden"
+
+#~ msgid "Quit the program"
+#~ msgstr "Beenden der Anwendung"
+
+#~ msgid "Run _Wizard"
+#~ msgstr "Assistent _ausführen"
+
+#~ msgid "Run the firewall wizard"
+#~ msgstr "Firewall-Assistent starten"
+
+#~ msgid "_Start Firewall"
+#~ msgstr "Firewall _starten"
+
+#~ msgid "Start the firewall"
+#~ msgstr "Firewall starten"
+
+#~ msgid "Sto_p Firewall"
+#~ msgstr "Firewall sto_ppen"
+
+#~ msgid "Stop the firewall"
+#~ msgstr "Firewall stoppen"
+
+#~ msgid "_Lock Firewall"
+#~ msgstr "Firewall spe_rren"
+
+#~ msgid "Lock the firewall"
+#~ msgstr "Firewall sperren"
+
+#~ msgid "_Unlock Firewall"
+#~ msgstr "Firewall _freigeben"
+
+#~ msgid "Unlock the firewall"
+#~ msgstr "Die Firewall freigeben"
+
+#~ msgid "_Copy description"
+#~ msgstr "Beschreibung _kopieren"
+
+#~ msgid "Copy event description"
+#~ msgstr "Beschreibung des Ereignisses kopieren"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Einstellungen"
+
+#~ msgid "Program preferences"
+#~ msgstr "Firestarter Einstellungen"
+
+#~ msgid "_Save List"
+#~ msgstr "Liste _speichern"
+
+#~ msgid "Save the events to a file"
+#~ msgstr "Ereignisse in einer Datei speichern"
+
+#~ msgid "_Clear"
+#~ msgstr "_Leeren"
+
+#~ msgid "Clear the events"
+#~ msgstr "Die Ereignisliste leeren"
+
+#~ msgid "_Reload"
+#~ msgstr "_Aktualisieren"
+
+#~ msgid "Reload the events"
+#~ msgstr "Die Ereignisliste aktualisieren"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Abbrechen"
+
+#~ msgid "Cancel reloading the events"
+#~ msgstr "Aktualisierung von Ereignissen abbrechen"
+
+#~ msgid "_Remove Rule"
+#~ msgstr "Regel _entfernen"
+
+#~ msgid "Remove the selected rule"
+#~ msgstr "Die ausgewählte Regel entfernen"
+
+#~ msgid "_Add Rule"
+#~ msgstr "Regel _hinzufügen"
+
+#~ msgid "Add a rule to the selected policy group"
+#~ msgstr "Eine Regel zur augewählten Richtliniengruppe hinzufügen"
+
+#~ msgid "_Edit Rule"
+#~ msgstr "Regel _bearbeiten"
+
+#~ msgid "Edit the selected rule"
+#~ msgstr "Bearbeiten der ausgewählten Regel"
+
+#~ msgid "A_pply Policy"
+#~ msgstr "Richtlinie _anwenden "
+
+#~ msgid "Apply the changes made the policy"
+#~ msgstr "Änderungen an der Richtlinie anwenden"
+
+#~ msgid "Online Users' _Manual"
+#~ msgstr "Online-_Handbuch"
+
+#~ msgid "Open the online users' manual in a browser"
+#~ msgstr "Öffnen des Online-Benutzerhandbuchs in einem Browser"
+
+#~ msgid "Firestarter _Homepage"
+#~ msgstr "Firestarter-Home_page"
+
+#~ msgid "Open the Firestarter homepage in a browser"
+#~ msgstr "Firestarter Homepage in einem Browser anzeigen"
+
+#~ msgid "_About"
+#~ msgstr "_Info"
+
+#~ msgid "About Firestarter"
+#~ msgstr "Info zu Firestarter"
+
+#~ msgid "Allow Connections From Source"
+#~ msgstr "Erlauben von Verbindungen von Quelle"
+
+#~ msgid "Allow all connections from this source"
+#~ msgstr "Alle Verbindungen von dieser Quelle erlauben"
+
+#~ msgid "Allow Inbound Service for Everyone"
+#~ msgstr "Eingehenden Dienst für jeden erlauben"
+
+#~ msgid "Allow inbound service for everyone"
+#~ msgstr "Eingehenden Dienst für jeden erlauben"
+
+#~ msgid "Allow Inbound Service for Source"
+#~ msgstr "Eingehenden Dienst erlauben für Quelle"
+
+#~ msgid "Allow inbound service for source"
+#~ msgstr "Eingehenden Dienst erlauben für Quelle"
+
+#~ msgid "Allow Connections to Destination"
+#~ msgstr "Erlauben von Verbindungen zu Ziel"
+
+#~ msgid "Allow connections to destination"
+#~ msgstr "Erlauben von Verbindungen zu Ziel"
+
+#~ msgid "Allow Outbound Service for Everyone"
+#~ msgstr "Ausgehenden Dienst für jeden erlauben"
+
+#~ msgid "Allow outbound service for everyone"
+#~ msgstr "Ausgehenden Dienst für jeden erlauben"
+
+#~ msgid "Allow Outbound Service for Source"
+#~ msgstr "Ausgehenden Dienst erlauben für Quelle"
+
+#~ msgid "Allow outbound service for source"
+#~ msgstr "Ausgehenden Dienst erlauben für Quelle"
+
+#~ msgid "Disable Events from Source"
+#~ msgstr "Deaktivieren der Ereignisse von Quelle"
+
+#~ msgid "Do not show future events from this source"
+#~ msgstr "Künftig keine weiteren Ereignisse dieser Quelle anzeigen"
+
+#~ msgid "Disable Events on Port"
+#~ msgstr "Deaktivieren von Ereignissen an Port"
+
+#~ msgid "Do not show future events from on this port"
+#~ msgstr "Künftig keine weiteren Ereignisse an diesem Port anzeigen"
+
+#~ msgid "_Lookup Hostnames"
+#~ msgstr "Rechner_namen ermitteln"
+
+#~ msgid "Look up the hostnames of the selected hit"
+#~ msgstr "Rechnernamen des ausgewählten Ereignisses heraussuchen"
+
+#~ msgid "_Terminate Connection"
+#~ msgstr "Verbindung _beenden"
+
+#~ msgid "Terminate the selected connection"
+#~ msgstr "Die augewählte Verbindung beenden"
+
+#~ msgid "Look up the hostnames of the selected connection"
+#~ msgstr "Die Rechnernamen für die ausgewählte Verbindung heraussuchen"
+
+#~ msgid "Show time column"
+#~ msgstr "Zeitspalte anzeigen"
+
+#~ msgid "Show direction column"
+#~ msgstr "Richtungsspalte anzeigen"
+
+#~ msgid "Show in column"
+#~ msgstr "Anzeigen in Spalte"
+
+#~ msgid "Show out column"
+#~ msgstr "Ausgehend-Spalte anzeigen"
+
+#~ msgid "Show port column"
+#~ msgstr "Port-Spalte anzeigen"
+
+#~ msgid "ToS"
+#~ msgstr "Diensttyp"
+
+#~ msgid "Firewall script saved as %s\n"
+#~ msgstr "Firewall-Skript gespeichert unter %s\n"
+
+#~ msgid "Invalid host"
+#~ msgstr "Ungültiger Rechner"
+
+#~ msgid ""
+#~ "The host you have specified is not a valid host,\n"
+#~ "please review your choice."
+#~ msgstr ""
+#~ "Der festgelegte Rechner ist nicht gültig.\n"
+#~ "Bitte die Auswahl überprüfen."
+
+#~ msgid "Invalid port"
+#~ msgstr "Ungültiger Port"
+
+#~ msgid ""
+#~ "The port you have specified is not a valid port,\n"
+#~ "please review your choice."
+#~ msgstr ""
+#~ "Der ausgewählte Port ist nicht gültig.\n"
+#~ "Bitte die Auswahl überprüfen."
+
+#~ msgid "Invalid internal host"
+#~ msgstr "Ungültiger interner Rechner"
+
+#~ msgid "Invalid internal port"
+#~ msgstr "Ungültiger interner Port"
+
+#~ msgid "IP, host or network"
+#~ msgstr "IP, Rechner oder Netzwerk"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Anyone"
+#~ msgstr "Jeder"
+
+#~ msgid "Firewall host"
+#~ msgstr "Firewall-Rechner"
+
+#~ msgid "LAN clients"
+#~ msgstr "LAN Clients"
+
+#~ msgid "IP or host"
+#~ msgstr "IP oder Rechnername"
+
+#~ msgid "Failed to apply policy"
+#~ msgstr "Anwenden der Richtlinie fehlgeschlagen"
+
+#~ msgid "Failed to apply inbound policy"
+#~ msgstr "Anwenden der Richtlinie für eingehenden Verkehr fehlgeschlagen"
+
+#~ msgid "There was an error when applying the inbound policy:"
+#~ msgstr ""
+#~ "Beim Anwenden der Richlinie für eingehenden Verkehr ist ein Fehler "
+#~ "aufgetreten:"
+
+#~ msgid "Failed to apply outbound policy"
+#~ msgstr "Anwenden der Richtlinie für ausgehenden Verkehr fehlgeschlagen"
+
+#~ msgid "There was an error when applying the outbound policy:"
+#~ msgstr ""
+#~ "Beim Anwenden der Richlinie für ausgehenden Verkehr ist ein Fehler "
+#~ "aufgetreten:"
+
+#~ msgid "Allow connections from host"
+#~ msgstr "Erlaube Verbindungen von Rechner"
+
+#~ msgid "Comment"
+#~ msgstr "Kommentar"
+
+#~ msgid "Allow service"
+#~ msgstr "Erlaube Dienst"
+
+#~ msgid "For"
+#~ msgstr "Für"
+
+#~ msgid "Forward service"
+#~ msgstr "Dienst weiterleiten"
+
+#~ msgid "Firewall Port"
+#~ msgstr "Firewall-Port"
+
+#~ msgid "To"
+#~ msgstr "Zu"
+
+#~ msgid "Add new inbound rule"
+#~ msgstr "Neue Regel für eingehenden Verkehr"
+
+#~ msgid "Allow connections from"
+#~ msgstr "Verbindungen zulassen von"
+
+#~ msgid "When the source is"
+#~ msgstr "Wenn folgendes die Quelle ist"
+
+#~ msgid "Forward service from firewall"
+#~ msgstr "Dienst von der Firewall weiterleiten"
+
+#~ msgid "To internal host"
+#~ msgstr "Zu internem Rechner"
+
+#~ msgid "Deny connections to host"
+#~ msgstr "Verbindungen abweisen zu Rechner"
+
+#~ msgid "Deny connections from LAN host"
+#~ msgstr "Verbindungen abweisen von lokalem Rechner"
+
+#~ msgid "Deny service"
+#~ msgstr "Dienst abweisen"
+
+#~ msgid "Allow connections to host"
+#~ msgstr "Verbindungen zulassen zu Rechner"
+
+#~ msgid "Allow connections from LAN host"
+#~ msgstr "Verbindungen zulassen von lokalem Rechner"
+
+#~ msgid "_Outbound traffic"
+#~ msgstr "_Ausgehender Verkehr"
+
+#~ msgid "Permissive by default, blacklist traffic"
+#~ msgstr "Freizügige Voreinstellung, Blacklist Verkehr"
+
+#~ msgid "Restrictive by default, whitelist traffic"
+#~ msgstr "Einschränkende Voreinstellung, Whitelist Verkehr"
+
+#~ msgid "Add new outbound rule"
+#~ msgstr "Neue Regel für ausgehenden Verkehr"
+
+#~ msgid "Deny connections to"
+#~ msgstr "Abweisen von Verbindungen zu"
+
+#~ msgid "Deny connections from"
+#~ msgstr "Verbindungen abweisen von"
+
+#~ msgid "Allow connections to"
+#~ msgstr "Verbindungen zulassen zu"
+
+#~ msgid "Inbound traffic policy"
+#~ msgstr "Richtlinie für eingehenden Verkehr"
+
+#~ msgid "Outbound traffic policy"
+#~ msgstr "Richtlinie für ausgehenden Verkehr"
+
+#~ msgid "Editing"
+#~ msgstr "Bearbeiten der"
+
+#~ msgid ""
+#~ "A proper configuration for Firestarter was not found. If you are running "
+#~ "Firestarter from the directory you built it in, run 'make install-data-"
+#~ "local' to install a configuration, or simply 'make install' to install "
+#~ "the whole program.\n"
+#~ "\n"
+#~ "Firestarter will now close."
+#~ msgstr ""
+#~ "Es wurde keine gültige Konfiguration für Firestarter gefunden. Falls Sie "
+#~ "Firestarter aus dem Verzeichnis heraus gestartet haben, in dem es "
+#~ "übersetzt wurde, führen Sie bitte 'make install-data-local' aus oder "
+#~ "installieren Sie das komplette Programm mit 'make install'\n"
+#~ "\n"
+#~ "Firestarter wird jetzt beendet."
+
+#~ msgid "Interface"
+#~ msgstr "Benutzeroberfläche"
+
+#~ msgid "Firewall"
+#~ msgstr "Firewall"
+
+#~ msgid "Network Settings"
+#~ msgstr "Netzwerkeinstellungen"
+
+#~ msgid "ICMP Filtering"
+#~ msgstr "ICMP Filterung"
+
+#~ msgid "ToS Filtering"
+#~ msgstr "Diensttyp Filterung"
+
+#~ msgid "Advanced Options"
+#~ msgstr "Erweiterte Optionen"
+
+#~ msgid "Hosts"
+#~ msgstr "Rechner"
+
+#~ msgid "Ports"
+#~ msgstr "Ports"
+
+#~ msgid "Please review your choices"
+#~ msgstr "Bitte die Auswahl überprüfen"
+
+#~ msgid "Invalid DHCP configuration"
+#~ msgstr "Ungültige DHCP Konfiguration"
+
+#~ msgid ""
+#~ "Please review your DHCP settings, the configuration\n"
+#~ "you specified is not valid."
+#~ msgstr ""
+#~ "Bitte die DHCP Einstellungen überprüfen.\n"
+#~ "Die festgelegte Konfiguration ist nicht gültig."
+
+#~ msgid "Missing file"
+#~ msgstr "Fehlende Datei"
+
+#~ msgid "Firestarter interface file not found"
+#~ msgstr "Firestarter Schnittstellendatei nicht gefunden"
+
+#~ msgid "The interface markup file preferences.glade could not be found."
+#~ msgstr ""
+#~ "Die Datei »preferences.glade«, dass die Beschreibung der "
+#~ "Benutzeroberfläche enthält, wurde nicht gefunden."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Allow the following ICMP packet types</b>"
+#~ msgstr "<b>Folgende ICMP Pakettypen erlauben</b>"
+
+#~ msgid "<b>Blocked connections</b>"
+#~ msgstr "<b>Blockierte Verbindungen</b>"
+
+#~ msgid "<b>Broadcast traffic</b>"
+#~ msgstr "<b>Broadcast Verkehr</b>"
+
+#~ msgid "<b>DHCP server details</b>"
+#~ msgstr "<b>DHCP Server Details</b>"
+
+#~ msgid "<b>Do not log events for the following</b>"
+#~ msgstr "<b>Keine Ereignisse für folgendes aufzeichnen</b>"
+
+#~ msgid "<b>Do not log events from</b>"
+#~ msgstr "<b>Keine Ereignisse aufzeichnen von</b>"
+
+#~ msgid "<b>Internet connected network device</b>"
+#~ msgstr "<b>Mit dem Internet verbundenes Netzwerkgerät</b>"
+
+#~ msgid "<b>Local network connected device</b>"
+#~ msgstr "<b>Gerät für das lokale Netzwerk</b>"
+
+#~ msgid "<b>Prefered packet rejection method</b>"
+#~ msgstr "<b>Die bevorzugte Art, Pakete abzulehnen</b>"
+
+#~ msgid "<b>Prioritize by maximizing the</b>"
+#~ msgstr "<b>Bevorzugung durch Erhöhung von</b>"
+
+#~ msgid "<b>Prioritize services commonly used by</b>"
+#~ msgstr "<b>Dienste bevorzugen, die gewöhnlich genutzt werden durch</b>"
+
+#~ msgid "<b>Rule editing</b>"
+#~ msgstr "<b>Regeln bearbeiten</b>"
+
+#~ msgid "<b>Startup and persistence</b>"
+#~ msgstr "<b>Start und Laufzeit</b>"
+
+#~ msgid "<b>System tray icon</b>"
+#~ msgstr "<b>Symbol im Benachrichtigungsfeld</b>"
+
+#~ msgid "<b>Traffic validation</b>"
+#~ msgstr "<b>Validierung des Verkehrs</b>"
+
+#~ msgid ""
+#~ "<span size=\"x-large\" weight=\"bold\">Advanced Firewall Options</span>"
+#~ msgstr ""
+#~ "<span size=\"x-large\" weight=\"bold\">Erweiterte Firewall-Optionen</span>"
+
+#~ msgid "<span size=\"x-large\" weight=\"bold\">Events List</span>"
+#~ msgstr "<span size=\"x-large\" weight=\"bold\">Ereignisliste</span>"
+
+#~ msgid "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+#~ msgstr "<span size=\"x-large\" weight=\"bold\">Firewall</span>"
+
+#~ msgid "<span size=\"x-large\" weight=\"bold\">ICMP Filtering</span>"
+#~ msgstr "<span size=\"x-large\" weight=\"bold\">ICMP Filterung</span>"
+
+#~ msgid "<span size=\"x-large\" weight=\"bold\">Network Settings</span>"
+#~ msgstr "<span size=\"x-large\" weight=\"bold\">Netzwerkeinstellungen</span>"
+
+#~ msgid "<span size=\"x-large\" weight=\"bold\">Policy Editor</span>"
+#~ msgstr "<span size=\"x-large\" weight=\"bold\">Richtlinieneditor</span>"
+
+#~ msgid ""
+#~ "<span size=\"x-large\" weight=\"bold\">Type of Service Filtering</span>"
+#~ msgstr ""
+#~ "<span size=\"x-large\" weight=\"bold\">Filterung nach Art des Dienstes</"
+#~ "span>"
+
+#~ msgid "<span size=\"x-large\" weight=\"bold\">User Interface</span>"
+#~ msgstr "<span size=\"x-large\" weight=\"bold\">Benutzeroberfläche</span>"
+
+#~ msgid "Address Masking"
+#~ msgstr "Adressmaskierung"
+
+#~ msgid "Advanced"
+#~ msgstr "Erweitert"
+
+#~ msgid "Apply policy changes immediately"
+#~ msgstr "Richlinienänderungen sofort anwenden"
+
+#~ msgid "Block traffic from reserved addresses on public interfaces"
+#~ msgstr ""
+#~ "Verkehr von reservierten Adressen an öffentlichen Schnittstellen "
+#~ "blockieren"
+
+#~ msgid "Create new DHCP configuration"
+#~ msgstr "Neue DHCP Konfiguration erstellen"
+
+#~ msgid "Detected device(s):"
+#~ msgstr "Erkannte Geräte:"
+
+#~ msgid "Drop silently"
+#~ msgstr "Ohne Rückmeldung verwerfen"
+
+#~ msgid "Echo reply (pong)"
+#~ msgstr "Echo zurückgeben (pong)"
+
+#~ msgid "Echo request (ping)"
+#~ msgstr "Echo anfordern (ping)"
+
+#~ msgid "Enable DHCP for the local network"
+#~ msgstr "DHCP für lokales Netzwerk aktivieren"
+
+#~ msgid "Enable ICMP filtering"
+#~ msgstr "ICMP-Filterung verwenden"
+
+#~ msgid "Enable Internet connection sharing"
+#~ msgstr "Internet-Verbindungsteilung verwenden"
+
+#~ msgid "Enable Type of Service filtering"
+#~ msgstr "Filterung nach Art des Dienstes (ToS) verwenden"
+
+#~ msgid "Filter host"
+#~ msgstr "Rechner filtern"
+
+#~ msgid "Filter port"
+#~ msgstr "Ports filtern"
+
+#~ msgid "Highest IP address to assign:"
+#~ msgstr "Höchste IP-Adresse für die Zuweisung:"
+
+#~ msgid "Host"
+#~ msgstr "Rechner"
+
+#~ msgid "ICMP"
+#~ msgstr "ICMP"
+
+#~ msgid ""
+#~ "ICMP filtering allows you to restrict control packet creation and\n"
+#~ "reception by the firewall, potentially preventing <i>Denial of Service</"
+#~ "i>\n"
+#~ "attacks, but also disabling many common network tools."
+#~ msgstr ""
+#~ "ICMP Filterung erlaubt es, die Erzeugung und den Empfang\n"
+#~ "von Kontrollpaketen durch die Firewall zu beschränken.\n"
+#~ "Dies verhindert möglicherweise <i>Denial of Service</i> Angriffe,\n"
+#~ "macht aber andererseits viele allgemeine Netzwerk-Werkzeuge\n"
+#~ "unbrauchbar."
+
+#~ msgid "Interactivity"
+#~ msgstr "Interaktion"
+
+#~ msgid "Keep existing DHCP configuration"
+#~ msgstr "Aktuelle DHCP Konfiguration beibehalten"
+
+#~ msgid "Lowest IP address to assign:"
+#~ msgstr "Niedrigste IP-Adresse für die Zuweisung:"
+
+#~ msgid "MS Traceroute"
+#~ msgstr "MS-Traceroute"
+
+#~ msgid "Minimize to tray on window close"
+#~ msgstr "Beim Schließen des Fensters in das Benachrichtigungsfeld minimieren"
+
+#~ msgid "Name server:"
+#~ msgstr "Name Server:"
+
+#~ msgid "Preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Redirection"
+#~ msgstr "Weiterleitung"
+
+#~ msgid "Reject with error packet"
+#~ msgstr "Ablehnen mit Fehlerpaket"
+
+#~ msgid "Reliability"
+#~ msgstr "Zuverlässigkeit"
+
+#~ msgid "Servers"
+#~ msgstr "Server"
+
+#~ msgid "Skip entries where the destination is not the firewall"
+#~ msgstr "Einträge überspringen, deren Ziel nicht die Firewall ist"
+
+#~ msgid "Skip redundant entries"
+#~ msgstr "Redundante Einträge überspringen"
+
+#~ msgid "Source Quenching"
+#~ msgstr "Source-Quenching"
+
+#~ msgid "Start firewall on system boot"
+#~ msgstr "Starten der Firewall beim Hochfahren des System"
+
+#~ msgid "Start/restart firewall on DHCP lease renewal"
+#~ msgstr "Start/Neustart der Firewall bei DHCP Lease-Erneuerung"
+
+#~ msgid "Start/restart firewall on dial-out"
+#~ msgstr "Start/Neustart der Firewall beim Herauswählen"
+
+#~ msgid "Start/restart firewall on program startup"
+#~ msgstr "Start/Neustart der Firewall beim Aufruf des Programms"
+
+#~ msgid "The X Window System"
+#~ msgstr "Das X-Window-System"
+
+#~ msgid "Throughput"
+#~ msgstr "Durchsatz"
+
+#~ msgid "Timestamping"
+#~ msgstr "Zeitstempel"
+
+#~ msgid "Traceroute"
+#~ msgstr "Traceroute"
+
+#~ msgid ""
+#~ "Type of Service filtering allows you to prioritize network traffic in "
+#~ "order\n"
+#~ "for certain applications to recieve higher troughput rates or better\n"
+#~ "interactivity."
+#~ msgstr ""
+#~ "Der Diensttyp-Filter (»Type of Service«, ToS) erlaubt es Ihnen, die\n"
+#~ "Priorität einzelner Netzwerkdienste zu verändern und so höhere\n"
+#~ "Durchsatzraten für häufig genutzte Dienste zu erzielen oder die\n"
+#~ "Interaktivität zu verbessern."
+
+#~ msgid "Unreachable"
+#~ msgstr "Nicht erreichbar"
+
+#~ msgid "Workstations"
+#~ msgstr "Arbeitsplatzrechner"
+
+#~ msgid "_Accept"
+#~ msgstr "_OK"
+
+#~ msgid ""
+#~ "Error writing to file %s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fehler beim Schreiben der Datei »%s«\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Save Events To File"
+#~ msgstr "Ereignisse in einer Datei speichern"
+
+#~ msgid "Active"
+#~ msgstr "Aktiv"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"
+
+#~ msgid "Locked"
+#~ msgstr "Gesperrt"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Local"
+#~ msgstr "Lokal"
+
+#~ msgid "Program"
+#~ msgstr "Programm"
+
+#~ msgid "Color"
+#~ msgstr "Farbe"
+
+#~ msgid "Total"
+#~ msgstr "Insgesamt"
+
+#~ msgid "Serious"
+#~ msgstr "Bedenklich"
+
+#~ msgid "Network"
+#~ msgstr "Netzwerk"
+
+#~ msgid "Device"
+#~ msgstr "Gerät"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Received"
+#~ msgstr "Empfangen"
+
+#~ msgid "Sent"
+#~ msgstr "Gesendet"
+
+#~ msgid "Activity"
+#~ msgstr "Aktivität"
+
+#~ msgid "Active connections"
+#~ msgstr "Aktive Verbindungen"
+
+#~ msgid "Firewall stopped"
+#~ msgstr "Firewall gestoppt"
+
+#~ msgid "Firewall running"
+#~ msgstr "Firewall gestartet"
+
+#~ msgid "Firewall locked"
+#~ msgstr "Firewall gesperrt"
+
+#~ msgid "_Show Firestarter"
+#~ msgstr "Firestarter _anzeigen"
+
+#~ msgid "_Exit"
+#~ msgstr "_Beenden"
+
+#~ msgid "Firestarter error"
+#~ msgstr "Firestarter Fehler"
+
+#~ msgid ""
+#~ "Failed to open the system log\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Öffnen des Systemlogs fehlgeschlagen\n"
+#~ "\n"
+
+#~ msgid "No event information will be available."
+#~ msgstr "Es werden keine Informationen zu Ereignissen verfügbar sein."
+
+#~ msgid "Failed to open /proc/net/dev for reading: "
+#~ msgstr "Öffnen von /proc/dev/net zum Auslesen ist fehlgeschlagen: "
+
+#~ msgid "Ethernet device"
+#~ msgstr "Netzwerkkarte"
+
+#~ msgid "Ethernet"
+#~ msgstr "Ethernet"
+
+#~ msgid "Dialup device"
+#~ msgstr "Dialup Gerät"
+
+#~ msgid "Dialup"
+#~ msgstr "Dialup"
+
+#~ msgid "Wireless device"
+#~ msgstr "WLAN Gerät"
+
+#~ msgid "Wireless"
+#~ msgstr "Wireless"
+
+#~ msgid "IPv6 Tunnel"
+#~ msgstr "IPv6 Tunnel"
+
+#~ msgid "VPN Tunnel"
+#~ msgstr "VPN Tunnel"
+
+#~ msgid "Routed IP Tunnel"
+#~ msgstr "Gerouteter IP-Tunnel"
+
+#~ msgid "Unknown device"
+#~ msgstr "Unbekanntes Gerät"
+
+#~ msgid ""
+#~ "Please select your Internet connected network device from the drop-down\n"
+#~ "list of available devices."
+#~ msgstr ""
+#~ "Bitte wählen Sie das mit dem Internet verbundene Netzwerkgerät\n"
+#~ "aus der Liste der verfügbaren Geräte."
+
+#~ msgid ""
+#~ "Tip: If you use a modem the device name is likely ppp0. If you have a "
+#~ "cable modem or a\n"
+#~ "DSL connection, choose eth0. Choose ppp0 if you know your cable or DSL "
+#~ "operator uses\n"
+#~ "the PPPoE protocol."
+#~ msgstr ""
+#~ "Hinweis: Falls Sie ein Modem verwenden, ist der Gerätename vermutlich\n"
+#~ "»ppp0«. Sollte jedoch ein Kabelmodem oder eine DSL-Verbindung zum\n"
+#~ "Einsatz kommen, so sollten Sie »eth0« wählen. Wählen Sie »ppp0«, falls\n"
+#~ "Ihr Kabel- oder DSL-Modem das PPP-über-Ethernet-Protokoll verwendet."
+
+#~ msgid "Start the firewall on dial-out"
+#~ msgstr "Starten der Firewall beim Herauswählen"
+
+#~ msgid ""
+#~ "Check this option and the firewall will start when you dial your Internet "
+#~ "Service Provider."
+#~ msgstr ""
+#~ "Wählen Sie dies, so wird die Firewall gestartet, wenn Sie sich bei Ihrem "
+#~ "Internet-Anbieter einwählen."
+
+#~ msgid "IP address is assigned via DHCP"
+#~ msgstr "IP-Adresse wird über DHCP zugewiesen"
+
+#~ msgid ""
+#~ "Check this option if you need to connect to a DHCP server. Cable modem "
+#~ "and DSL users should check this."
+#~ msgstr ""
+#~ "Wählen Sie dies, falls Sie den Rechner mit einem DHCP-Server verbinden "
+#~ "müssen. Dies trifft in der Regel für Kabelmodem- und DSL-Benutzer zu."
+
+#~ msgid ""
+#~ "Firestarter can share your Internet connection with the computers on your "
+#~ "local network\n"
+#~ "using a single public IP address and a method called Network Address "
+#~ "Translation."
+#~ msgstr ""
+#~ "Firestarter ermöglicht die gemeinsame Nutzung einer Internetverbindung "
+#~ "mit mehreren Rechnern im lokalen Netzwerk\n"
+#~ "durch Nutzung einer einzigen öffentlichen IP Adresse und einer Methode, "
+#~ "die »Network Adress Translation« genannt wird."
+
+#~ msgid "Local area network device:"
+#~ msgstr "Netzwerkgerät für das lokale Netz: "
+
+#~ msgid "Enable DHCP for local network"
+#~ msgstr "DHCP für lokales Netzwerk aktivieren"
+
+#~ msgid "Explain the DHCP function..."
+#~ msgstr "Erklärung der DHCP Funktion…"
+
+#~ msgid "DHCP server details"
+#~ msgstr "DHCP-Server Details"
+
+#~ msgid "Create new DHCP configuration:"
+#~ msgstr "Eine neue DHCP Konfiguration erstellen:"
+
+#~ msgid ""
+#~ "This wizard will help you to set up a firewall for your\n"
+#~ "Linux machine. You will be asked some questions\n"
+#~ "about your network setup in order to customize the\n"
+#~ "firewall for your system.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Dieser Assistent wird Ihnen beim Einrichten einer Firewall\n"
+#~ "auf Ihrem Linux-Rechner behilflich sein. Dabei werden Ihnen\n"
+#~ "einige Fragen zur Netzwerkkonfiguration gestellt, damit die\n"
+#~ "Firewall an das System angepasst werden kann.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Tip: If you are uncertain of how to answer a question it is\n"
+#~ "best to use the default value supplied.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Hinweis: Falls Sie sich bei der Antwort auf eine Frage\n"
+#~ "unsicher sind, ist es das Beste, die Voreinstellungen\n"
+#~ "zu übernehmen.\n"
+#~ "\n"
+
+#~ msgid "Please press the forward button to continue.\n"
+#~ msgstr "Klicken Sie auf »Vor«, um fortzufahren.\n"
+
+#~ msgid "The wizard is now ready to start your firewall."
+#~ msgstr "Der Assistent ist nun bereit, die Firewall zu starten."
+
+#~ msgid ""
+#~ "Press the save button to continue, or the back button to review your "
+#~ "choices."
+#~ msgstr ""
+#~ "Klicken Sie auf »Speichern« um fortzufahren oder »Zurück«, um die "
+#~ "Einstellungen nochmals zu überprüfen."
+
+#~ msgid "Start firewall now"
+#~ msgstr "Firewall jetzt starten"
+
+#~ msgid ""
+#~ "Tip: If you are connecting to the firewall host remotely you might want "
+#~ "to\n"
+#~ "defer starting the firewall until you have created additional policy."
+#~ msgstr ""
+#~ "Hinweis: Falls Sie mit dem Firewall-Rechner über ein Netzwerk\n"
+#~ "verbunden sind, sollten Sie gegebenenfalls den Start der Firewall\n"
+#~ "erst durchführen, wenn Sie eine entsprechende Richtlinie für\n"
+#~ "diese Verbindung erstellt haben."
+
+#~ msgid ""
+#~ "The local area and the Internet connected devices can not be the same."
+#~ msgstr ""
+#~ "Die Geräte für Internet und lokales Netzwerk dürfen nicht identisch sein."
+
+#~ msgid "The supplied DHCP configuration is not valid."
+#~ msgstr "Die gelieferte DHCP Konfiguration ist nicht gültig."
+
+#~ msgid "Firewall Wizard"
+#~ msgstr "Firewall-Assistent"
+
+#~ msgid "Welcome to Firestarter"
+#~ msgstr "Willkommen bei Firestarter"
+
+#~ msgid "Network device setup"
+#~ msgstr "Einrichten der Netzwerkgeräte"
+
+#~ msgid "Internet connection sharing setup"
+#~ msgstr "Konfiguration der Internet-Verbindungsteilung"
+
+#~ msgid "Ready to start your firewall"
+#~ msgstr "Ihre Firewall kann nun gestartet werden"
+
+#~ msgid ""
+#~ "No DHCP client configuration found\n"
+#~ "\n"
+#~ "The firewall will not be loaded automatically on a lease renewal. Please "
+#~ "make sure the external device is configured properly or disable the DHCP "
+#~ "option if you are using static settings.\n"
+#~ msgstr ""
+#~ "Keine DHCP-Client-Konfiguration gefunden\n"
+#~ "\n"
+#~ "Die Firewall kann daher bei einer Lease-Erneuerung nicht automatisch "
+#~ "gestartet werden. Stellen Sie sicher, dass das externe Gerät "
+#~ "ordnungsgemäß konfiguriert ist oder deaktivieren Sie die DHCP-Option, "
+#~ "falls Sie statische Einstellungen verwenden.\n"

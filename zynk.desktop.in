@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+_Name=Zynk
+_Comment=A rsync utility for GNOME
+Exec=zynk
+Icon=zynk.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Application;Utility;

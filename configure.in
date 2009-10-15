@@ -1,0 +1,77 @@
+dnl Process this file with autoconf to produce a configure script.
+
+dnl init autoconf
+AC_INIT(configure.in)
+AC_PREREQ(2.50)
+AC_CONFIG_SRCDIR(src/zynk.c)
+AC_CONFIG_AUX_DIR(.)
+AC_PROG_INTLTOOL([0.30])
+
+dnl init automake
+AM_INIT_AUTOMAKE(zynk, 1.0)
+AM_CONFIG_HEADER(config.h)
+AM_MAINTAINER_MODE
+
+AC_ISC_POSIX
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_HEADER_STDC
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+AM_PROG_LIBTOOL
+
+GNOME_COMPILE_WARNINGS
+
+AM_GCONF_SOURCE_2
+
+AC_PATH_PROG(GCONFTOOL, gconftool-2, no)
+
+if test x"$GCONFTOOL" = xno; then
+  AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf2])
+fi
+
+LIBGNOME_REQUIRED=2.14.1
+LIBGNOMEUI_REQUIRED=2.14.1
+LIBXML_REQUIRED=2.6.26
+GTK_REQUIRED=2.8.19
+GNOME_VFS_REQUIRED=2.14.2
+LIBGLADE_REQUIRED=2.5.1
+
+PKG_CHECK_MODULES(ZYNK,
+                  libgnome-2.0 >= $LIBGNOME_REQUIRED
+                  libgnomeui-2.0 >= $LIBGNOMEUI_REQUIRED
+                  libxml-2.0 >= $LIBXML_REQUIRED
+                  gtk+-2.0 >= $GTK_REQUIRED
+                  gnome-vfs-2.0 >= $GNOME_VFS_REQUIRED
+		              libglade-2.0 >= $LIBGLADE_REQUIRED)
+
+AC_SUBST(ZYNK_CFLAGS)
+AC_SUBST(ZYNK_LIBS)
+
+AM_GCONF_SOURCE_2
+
+dnl i18n
+ALL_LINGUAS="de"
+GETTEXT_PACKAGE=zynk
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[Useful for glib-gettextize])
+AM_GLIB_GNU_GETTEXT
+
+dnl Set PACKAGE_LOCALE_DIR in config.h.
+if test "x${prefix}" = "xNONE"; then
+  AC_DEFINE_UNQUOTED(PACKAGE_LOCALE_DIR, "${ac_default_prefix}/${DATADIRNAME}/locale", [Localization])
+else
+  AC_DEFINE_UNQUOTED(PACKAGE_LOCALE_DIR, "${prefix}/${DATADIRNAME}/locale", [Localization])
+fi
+
+ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
+
+AC_OUTPUT([
+Makefile
+src/Makefile
+src/xpm/Makefile
+po/Makefile.in
+pixmaps/Makefile
+examples/Makefile
+])
+

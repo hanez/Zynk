@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<zynk>
+	<values>
+		<sourcepath>/home/www/hanez.org/htdocs/</sourcepath>
+		<destinationpath>/var/www/hanez.org/www/htdocs/</destinationpath>
+		<hostname>hanez.org</hostname>
+		<username>hanez</username>
+		<password></password>
+		<custom_args>--exclude=photos/ --exclude=search/ --exclude=CVS/</custom_args>
+		<sync_to_host>1</sync_to_host>
+		<use_ssh>0</use_ssh>
+		<use_ssh_keyauth>1</use_ssh_keyauth>
+		<delete_files_in_destination>1</delete_files_in_destination>
+		<sync_recursive>1</sync_recursive>
+		<preserve_permissions>1</preserve_permissions>
+		<increase_verbosity>1</increase_verbosity>
+	</values>
+</zynk>

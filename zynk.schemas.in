@@ -1,0 +1,16 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/zynk/start-zynk-taskbar</key>
+      <applyto>/apps/zynk/start-zynk-taskbar</applyto>
+      <owner>zynk</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Open Zynk in the notification area at startup?</short>
+        <long>If set to true, Zynk will start it's task bar integration at 
+        program startup.</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>
