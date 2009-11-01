@@ -117,7 +117,6 @@ on_about_activate(GtkWidget *widget, gpointer data)
   } else {
     const gchar *authors[] = {
         "Johannes Findeisen <you@hanez.org> - Core Development",
-	"Jonas Jared Jacek <noreply@jabz.biz> - Creative Asskicker",
         NULL};
 
     pixbuf = gdk_pixbuf_new_from_inline (-1, zynklogo, FALSE, NULL);
