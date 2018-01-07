@@ -41,13 +41,13 @@ int main (int argc, char *argv[])
 
 	glade_xml_signal_autoconnect (xml);
 
-	//mainwindow = glade_xml_get_widget (xml, "mainwindow");
+	mainwindow = glade_xml_get_widget (xml, "mainwindow");
 	
 	//gnome_window_icon_set_from_file (mainwindow, PIXMAPDIR"/zynk.png");
 	
-	//gtk_window_set_title (GTK_WINDOW (mainwindow), "Zynk");
+	gtk_window_set_title (GTK_WINDOW (mainwindow), "Zynk");
 	
-	//gtk_widget_show (mainwindow);
+	gtk_widget_show (mainwindow);
 
 	gtk_main ();
 	

@@ -10,6 +10,14 @@
 /* Define to 1 if you have the `bind_textdomain_codeset' function. */
 #define HAVE_BIND_TEXTDOMAIN_CODESET 1
 
+/* Define to 1 if you have the Mac OS X function CFLocaleCopyCurrent in the
+   CoreFoundation framework. */
+/* #undef HAVE_CFLOCALECOPYCURRENT */
+
+/* Define to 1 if you have the Mac OS X function CFPreferencesCopyAppValue in
+   the CoreFoundation framework. */
+/* #undef HAVE_CFPREFERENCESCOPYAPPVALUE */
+
 /* Define to 1 if you have the `dcgettext' function. */
 #define HAVE_DCGETTEXT 1
 
@@ -52,8 +60,7 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
 /* Name of package */
@@ -63,7 +70,7 @@
 #define PACKAGE_BUGREPORT ""
 
 /* Localization */
-#define PACKAGE_LOCALE_DIR "/usr/local/share/locale"
+#define PACKAGE_LOCALE_DIR "/usr/share/locale"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME ""
@@ -73,6 +80,9 @@
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME ""
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL ""
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION ""

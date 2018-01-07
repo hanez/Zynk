@@ -1,3 +1,0 @@
-profiles_signals.o profiles_signals.o: profiles_signals.c ../config.h
-
-../config.h:
